@@ -25,7 +25,7 @@ class Node:
 
 
 goal_state = [' ', 1, 2, 3, 4, 5, 6, 7, 8]
-closed_list = []  # tuple of a node configurations, used to identify already visited states
+closed_list = []  # list of node configurations, used to identify already visited states
 possible_moves = ((1, 3), (0, 4, 2), (1, 5), (0, 4, 6),
                   (1, 3, 5, 7), (2, 4, 8), (3, 7),
                   (6, 4, 8), (5, 7))  # possible indices to move to for each index the empty tile could be at
