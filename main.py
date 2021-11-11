@@ -51,7 +51,6 @@ def generate_moves(node: Node) -> list[(int, Node)]:
         new_node = Node(swap_list_items(node.value, empty_index, i), node)
         if not tuple(new_node.value) in closed_list:  # check if this state was already visited
             next_solutions.append([new_node.f, new_node])
-
     return next_solutions
 
 
