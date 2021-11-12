@@ -119,9 +119,8 @@ def display_board(l: list) -> None:
 
 
 def a_star (state: Node) -> list:
-    goal_state_appeared = False
     pqueue = []
-    while not goal_state_appeared:
+    while True:
         if state.value == goal_state:  # check if it is the goal state
             route_to_goal = [state.value]
             while state.parent != None:
