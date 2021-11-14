@@ -136,7 +136,7 @@ def a_star (state: Node) -> list:
 
 print(f'initial board:')
 display_board(initial_state.value)
-print(f'now finding the route to the solution...)')
+print(f'now finding the route to the solution...')
 print(f'(IF STUCK, TRY AGAIN. SOME RANDOM CONFIGURATIONS INCREASE THE TIME COMPLEXITY BY A CONSIDERABLE AMOUNT)')
 
 t0 = time.perf_counter()
